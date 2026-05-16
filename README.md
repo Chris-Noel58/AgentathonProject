@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Project Title
 
-# Run and deploy your AI Studio app
+A full-stack web application built with React, Vite, Express, and Firebase.
 
-This contains everything you need to run your app locally.
+## Technologies Used
 
-View your app in AI Studio: https://ai.studio/apps/3fd4819c-0b74-42b0-85cb-8d93c418eb67
+- **Frontend**: React, Tailwind CSS, Vite
+- **Backend**: Express, Node.js
+- **Database/Auth**: Firebase Firestore and Firebase Authentication
+- **AI**: Gemini API
 
-## Run Locally
+## Setup Instructions
 
-**Prerequisites:**  Node.js
+1.  **Environment Variables**: Create a `.env` file based on `.env.example` and fill in the required environment variables.
+2.  **Dependencies**: Dependencies are managed via npm.
+3.  **Run Development Server**: `npm run dev`
+4.  **Build and Start**:
+    - Build: `npm run build`
+    - Start: `npm run start`
 
+## Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- `src/`: Frontend source code.
+  - `components/`: Reusable UI components.
+  - `context/`: React context for authentication.
+  - `lib/`: Utility functions and Firebase initialization.
+  - `pages/`: Application pages.
+- `server.ts`: Express backend server.
