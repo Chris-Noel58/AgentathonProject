@@ -1,0 +1,6 @@
+{
+  "name": "County Budget Watchdog",
+  "description": "A civic-tech web app that helps Kenyan residents understand county budget PDFs in simple language using AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
